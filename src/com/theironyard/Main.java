@@ -22,12 +22,12 @@ public class Main {
             students.add(classMate);
         }
         List<Teacher> teachers = new ArrayList<>();
-        String[] teachFirstNames = {"Calvin", "Bubba", "Spencer"};
-        String[] teachLastNames = {"Webster", "Lecheminant", "Oakes"};
+        String[] teacherFirstNames = {"Calvin", "Bubba", "Spencer"};
+        String[] teacherLastNames = {"Webster", "Lecheminant", "Oakes"};
         for (int i = 0; i < 3; i++) {
             Teacher instructor = new Teacher();
-            instructor.setFirstName(teachFirstNames[i]);
-            instructor.setLastName(teachLastNames[i]);
+            instructor.setFirstName(teacherFirstNames[i]);
+            instructor.setLastName(teacherLastNames[i]);
             instructor.setId(100 + i);
             instructor.setGrade(1);
             teachers.add(instructor);
